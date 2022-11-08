@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full review - Marc-Antoine </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <form id="main-form" name="mainform">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <br>
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Address" required>
+            <br>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="City" required>
+            <br>
+            <label for="province">Province</label>
+            <input type="text" id="province" name="province" placeholder="Province" required>
+            <br>
+            <label for="membership">Premium Membership</label>
+            <input type="radio" id="membership" name="membership" value="premium" checked>
+            <br>
+            <label for="membership">Standard Membership</label>
+            <input type="radio" id="membership" name="membership" value="standard">
+            <br>
+            <label for="membership">Basic Membership</label>
+            <input type="radio" id="membership" name="membership" value="basic">
+            <br>
+            <input type="button" class="button" value="Submit" onclick="userForm()">
+            <br>
+            <input type="reset" class="button" value="Cancel">
+
+
+        </form>
+
+        <div id="output">
+        <!-- here is where the user should see the result (output) -->
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+        ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Marc-Antoine
+        </p>
+    </footer>
+    </div>
+
+    <script src="js/main.js">
+
+    </script>
+    
+</body>
+</html>
